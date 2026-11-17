@@ -12,7 +12,7 @@
 
   <groupId>com.example</groupId>
   <artifactId>hsbc.payment-gateway</artifactId>
-  <version>v2.0.0</version>
+  <version>v1.0.0</version>
   <name>hsbc.payment-gateway</name>
   <description>Spring Boot app with simple form login + Nexus deploy + SonarQube analysis</description>
 
@@ -56,11 +56,11 @@
   <distributionManagement>
     <snapshotRepository>
       <id>nexusdeploymentrepo</id>
-      <url>http://44.201.39.56:8081/repository/hsbc-payment-gateway-snapshots-repo/</url>
+      <url>http://44.195.90.178:8081/repository/hsbc-payment-gateway-snapshots-repo/</url>
     </snapshotRepository>
     <repository>
       <id>nexusdeploymentrepo</id>
-      <url>http://44.201.39.56:8081/repository/hsbc-payment-gateway-releases-repo/</url>
+      <url>http://44.195.90.178:8081/repository/hsbc-payment-gateway-releases-repo/</url>
     </repository>
   </distributionManagement>
 
